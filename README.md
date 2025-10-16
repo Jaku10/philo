@@ -27,7 +27,7 @@ A beautiful, minimal daily philosophy quoting app designed for mental health and
 - **Deployment**: GitHub Pages
 - **Icons**: Custom SVG icons
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 1. **Clone the repository**
    ```bash
@@ -48,7 +48,7 @@ A beautiful, minimal daily philosophy quoting app designed for mental health and
 4. **Open your browser**
    Navigate to `http://localhost:3000`
 
-## 🏗️ Build for Production
+## Build for Production
 
 ```bash
 npm run build
@@ -56,7 +56,7 @@ npm run build
 
 This creates an optimized production build in the `build` folder.
 
-## 🎯 Key Features Deep Dive
+## Key Features Deep Dive
 
 ### Daily Quote Generation
 - Random selection from 80+ curated philosophical quotes
@@ -78,23 +78,24 @@ This creates an optimized production build in the `build` folder.
 - Properly formatted quote text with attribution
 - Cross-platform compatibility
 
-## 🎨 Design Philosophy
+## Design Philosophy
 
-philo was designed with mental health and mindfulness in mind:
+philo was designed as a app that promotes mental health, mindfulness, and for motivation.
 
+## Design
 - **Warm Color Palette**: Cream and coral tones for calm, peaceful experience
 - **Minimal Interface**: Reduces cognitive load and distractions
 - **Typography**: Clean, readable fonts optimized for reflection
 - **Spacing**: Generous whitespace for breathing room
 - **Micro-interactions**: Subtle animations that enhance rather than distract
 
-## 📱 Responsive Design
+##  Responsive Design
 
 - **Desktop**: Full-featured experience with hover effects
 - **Tablet**: Optimized touch interactions
 - **Mobile**: Streamlined interface with thumb-friendly buttons
 
-## 🔧 Customization
+## Customization
 
 ### Adding New Quotes
 Edit `src/quotes.js` to add more philosophical quotes:
@@ -122,10 +123,6 @@ Modify `src/App.css` to customize colors, fonts, and layout.
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## 🙏 Acknowledgments
 
 - Quotes from philosophers throughout history
@@ -134,6 +131,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**Built with ❤️ for mental health and daily inspiration**
+** Feel Free to provide Feedback**
+
+** First vibecoded project **
 
 *"The only way to deal with an unfree world is to become so absolutely free that your very existence is an act of rebellion."* — Albert Camus
