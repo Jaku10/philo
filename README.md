@@ -4,8 +4,6 @@
 > 
 Daily Philosphy for Daily Philosophers
 
-![philo App](https://via.placeholder.com/800x400/faf8f5/4a4a4a?text=philo+-+Daily+Philosophy+Quotes)
-
 ##  Features: 
 
 - ** 50+ Philosophical Quotes**: Curated collection from Socrates, Aristotle, Buddha, Camus, and more
