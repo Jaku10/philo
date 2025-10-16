@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/philo/static/css/main.14abbc55.css",
+    "main.js": "/philo/static/js/main.6b842647.js",
+    "index.html": "/philo/index.html",
+    "main.14abbc55.css.map": "/philo/static/css/main.14abbc55.css.map",
+    "main.6b842647.js.map": "/philo/static/js/main.6b842647.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14abbc55.css",
+    "static/js/main.6b842647.js"
+  ]
+}
