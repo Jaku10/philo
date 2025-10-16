@@ -2,22 +2,22 @@
 
 > *"The unexamined life is not worth living."* — Socrates
 
-A beautiful, minimal daily philosophy quoting app designed for mental health and motivation. Get inspired with wisdom from philosophers throughout history in a clean, distraction-free interface.
+Daily Philosophy for Daily Philosophers
 
 ## Features
 
-- **📖 80+ Philosophical Quotes**: Curated collection from Socrates, Aristotle, Buddha, Camus, Nietzsche, Kant, and more
-- **❤️ Favorites System**: Save quotes you love with persistent localStorage
-- **📊 Daily Counter**: Track your daily reading progress (auto-resets at midnight)
-- **📤 Share Quotes**: One-click clipboard copy for sharing anywhere
-- **📱 Responsive Design**: Beautiful on desktop, tablet, and mobile
-- **🎨 Minimal UI**: Clean, warm design focused on calm and reflection
+- ** 80+ Philosophical Quotes**: Curated collection from Socrates, Aristotle, Buddha, Camus, Nietzsche, Kant, and more
+- ** Favorites System**: Save quotes you love with persistent localStorage
+- ** Daily Counter**: Track your daily reading progress (auto-resets at midnight)
+- ** Share Quotes**: One-click clipboard copy for sharing anywhere
+- ** Responsive Design**: Beautiful on desktop, tablet, and mobile
+- ** Minimal UI**: Clean, warm design focused on calm and reflection
 
-## 🚀 Live Demo
+##  Live Demo
 
 **[Try philo live on GitHub Pages →](https://jaku10.github.io/philo)**
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: React 18
 - **Styling**: CSS3 with modern features
@@ -121,7 +121,7 @@ Modify `src/App.css` to customize colors, fonts, and layout.
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Quotes from philosophers throughout history
 - React community for excellent documentation
