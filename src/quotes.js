@@ -298,5 +298,185 @@ export const quotes = [
     text: "Don't watch the clock; do what it does. Keep going.",
     author: "Sam Levenson",
     source: "Attributed"
+  },
+  {
+    id: 51,
+    text: "The unexamined life is not worth living.",
+    author: "Socrates",
+    source: "Apology 38a5-6 (Plato)"
+  },
+  {
+    id: 52,
+    text: "I think, therefore I am.",
+    author: "René Descartes",
+    source: "Discourse on the Method, Part IV"
+  },
+  {
+    id: 53,
+    text: "Whereof one cannot speak, thereof one must be silent.",
+    author: "Ludwig Wittgenstein",
+    source: "Tractatus Logico-Philosophicus (7)"
+  },
+  {
+    id: 54,
+    text: "Entities should not be multiplied unnecessarily.",
+    author: "William of Ockham",
+    source: "Summa Logicae (Ockham's Razor)"
+  },
+  {
+    id: 55,
+    text: "Man is born free, and everywhere he is in chains.",
+    author: "Jean-Jacques Rousseau",
+    source: "The Social Contract, Book I, Ch. 1"
+  },
+  {
+    id: 56,
+    text: "To be is to be perceived.",
+    author: "George Berkeley",
+    source: "A Treatise Concerning the Principles of Human Knowledge"
+  },
+  {
+    id: 57,
+    text: "He who has a why to live can bear almost any how.",
+    author: "Friedrich Nietzsche",
+    source: "Twilight of the Idols, 'Maxims and Arrows' §12"
+  },
+  {
+    id: 58,
+    text: "The life of man (in a state of nature) is solitary, poor, nasty, brutish, and short.",
+    author: "Thomas Hobbes",
+    source: "Leviathan (Ch. XIII)"
+  },
+  {
+    id: 59,
+    text: "The only true wisdom is in knowing you know nothing.",
+    author: "Socrates",
+    source: "Apology (Plato)"
+  },
+  {
+    id: 60,
+    text: "The greatest happiness of the greatest number is the foundation of morals and legislation.",
+    author: "Jeremy Bentham",
+    source: "An Introduction to the Principles of Morals and Legislation"
+  },
+  {
+    id: 61,
+    text: "Man is the measure of all things.",
+    author: "Protagoras",
+    source: "Fragment B1"
+  },
+  {
+    id: 62,
+    text: "The mind is furnished with ideas by experience alone.",
+    author: "John Locke",
+    source: "An Essay Concerning Human Understanding (Book II)"
+  },
+  {
+    id: 63,
+    text: "The owl of Minerva spreads its wings only with the falling of the dusk.",
+    author: "G. W. F. Hegel",
+    source: "Preface to the Philosophy of Right"
+  },
+  {
+    id: 64,
+    text: "Hell is other people.",
+    author: "Jean-Paul Sartre",
+    source: "No Exit (1944)"
+  },
+  {
+    id: 65,
+    text: "One cannot step twice into the same river.",
+    author: "Heraclitus",
+    source: "Fragment DK22B91"
+  },
+  {
+    id: 66,
+    text: "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+    author: "Aristotle",
+    source: "Nicomachean Ethics (II.1)"
+  },
+  {
+    id: 67,
+    text: "There is but one truly serious philosophical problem, and that is suicide.",
+    author: "Albert Camus",
+    source: "The Myth of Sisyphus"
+  },
+  {
+    id: 68,
+    text: "The highest good is the harmony of the soul with itself.",
+    author: "Plato",
+    source: "Republic (Book IV)"
+  },
+  {
+    id: 69,
+    text: "The heart has its reasons of which reason knows nothing.",
+    author: "Blaise Pascal",
+    source: "Pensées §277"
+  },
+  {
+    id: 70,
+    text: "What is rational is actual and what is actual is rational.",
+    author: "G. W. F. Hegel",
+    source: "Preface to the Philosophy of Right"
+  },
+  {
+    id: 71,
+    text: "The more I read, the more I acquire, the more certain I am that I know nothing.",
+    author: "Voltaire",
+    source: "Letter to Frederick the Great (1770)"
+  },
+  {
+    id: 72,
+    text: "Happiness is not an ideal of reason but of imagination.",
+    author: "Immanuel Kant",
+    source: "Critique of Pure Reason"
+  },
+  {
+    id: 73,
+    text: "Life must be understood backward. But it must be lived forward.",
+    author: "Søren Kierkegaard",
+    source: "Journals and Papers (1843)"
+  },
+  {
+    id: 74,
+    text: "God is dead. God remains dead. And we have killed him.",
+    author: "Friedrich Nietzsche",
+    source: "The Gay Science (§125)"
+  },
+  {
+    id: 75,
+    text: "All that is solid melts into air.",
+    author: "Karl Marx & Friedrich Engels",
+    source: "The Communist Manifesto (1848)"
+  },
+  {
+    id: 76,
+    text: "Even while they teach, men learn.",
+    author: "Seneca",
+    source: "Epistles (VII)"
+  },
+  {
+    id: 77,
+    text: "Happiness depends upon ourselves.",
+    author: "Aristotle",
+    source: "Nicomachean Ethics (I.5)"
+  },
+  {
+    id: 78,
+    text: "Freedom is obedience to self-formulated law.",
+    author: "Jean-Jacques Rousseau",
+    source: "The Social Contract (Book I, Ch. 8)"
+  },
+  {
+    id: 79,
+    text: "It is not things themselves that disturb men, but their judgments about things.",
+    author: "Epictetus",
+    source: "Enchiridion (5)"
+  },
+  {
+    id: 80,
+    text: "Man is condemned to be free.",
+    author: "Jean-Paul Sartre",
+    source: "Being and Nothingness (1943)"
   }
 ];

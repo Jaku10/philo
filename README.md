@@ -8,7 +8,7 @@ A beautiful, minimal daily philosophy quoting app designed for mental health and
 
 ## ✨ Features
 
-- **📖 50+ Philosophical Quotes**: Curated collection from Socrates, Aristotle, Buddha, Camus, and more
+- **📖 80+ Philosophical Quotes**: Curated collection from Socrates, Aristotle, Buddha, Camus, Nietzsche, Kant, and more
 - **❤️ Favorites System**: Save quotes you love with persistent localStorage
 - **📊 Daily Counter**: Track your daily reading progress (auto-resets at midnight)
 - **📤 Share Quotes**: One-click clipboard copy for sharing anywhere
@@ -59,7 +59,7 @@ This creates an optimized production build in the `build` folder.
 ## 🎯 Key Features Deep Dive
 
 ### Daily Quote Generation
-- Random selection from 50+ curated philosophical quotes
+- Random selection from 80+ curated philosophical quotes
 - Smooth transitions and animations
 - Instant loading with no API dependencies
 
