@@ -1,0 +1,302 @@
+export const quotes = [
+  {
+    id: 1,
+    text: "Bad men need nothing more to compass their ends, than that good men should look on and do nothing.",
+    author: "John Stuart Mill",
+    source: "Inaugural Address (paraphrase)"
+  },
+  {
+    id: 2,
+    text: "The unexamined life is not worth living.",
+    author: "Socrates",
+    source: "Apology"
+  },
+  {
+    id: 3,
+    text: "I think, therefore I am.",
+    author: "René Descartes",
+    source: "Discourse on Method"
+  },
+  {
+    id: 4,
+    text: "The only way to deal with an unfree world is to become so absolutely free that your very existence is an act of rebellion.",
+    author: "Albert Camus",
+    source: "The Rebel"
+  },
+  {
+    id: 5,
+    text: "Man is born free, and everywhere he is in chains.",
+    author: "Jean-Jacques Rousseau",
+    source: "The Social Contract"
+  },
+  {
+    id: 6,
+    text: "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+    author: "Aristotle",
+    source: "Nicomachean Ethics"
+  },
+  {
+    id: 7,
+    text: "The mind is everything. What you think you become.",
+    author: "Buddha",
+    source: "Dhammapada"
+  },
+  {
+    id: 8,
+    text: "Happiness is not something ready made. It comes from your own actions.",
+    author: "Dalai Lama",
+    source: "The Art of Happiness"
+  },
+  {
+    id: 9,
+    text: "The only thing I know is that I know nothing.",
+    author: "Socrates",
+    source: "Apology"
+  },
+  {
+    id: 10,
+    text: "Life is what happens to you while you're busy making other plans.",
+    author: "John Lennon",
+    source: "Beautiful Boy"
+  },
+  {
+    id: 11,
+    text: "The future belongs to those who believe in the beauty of their dreams.",
+    author: "Eleanor Roosevelt",
+    source: "You Learn by Living"
+  },
+  {
+    id: 12,
+    text: "In the middle of difficulty lies opportunity.",
+    author: "Albert Einstein",
+    source: "The World As I See It"
+  },
+  {
+    id: 13,
+    text: "The only impossible journey is the one you never begin.",
+    author: "Tony Robbins",
+    source: "Awaken the Giant Within"
+  },
+  {
+    id: 14,
+    text: "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    author: "Winston Churchill",
+    source: "Speech to Harrow School"
+  },
+  {
+    id: 15,
+    text: "The way to get started is to quit talking and begin doing.",
+    author: "Walt Disney",
+    source: "Interview"
+  },
+  {
+    id: 16,
+    text: "Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.",
+    author: "Roy T. Bennett",
+    source: "The Light in the Heart"
+  },
+  {
+    id: 17,
+    text: "Believe you can and you're halfway there.",
+    author: "Theodore Roosevelt",
+    source: "Speech"
+  },
+  {
+    id: 18,
+    text: "The only person you are destined to become is the person you decide to be.",
+    author: "Ralph Waldo Emerson",
+    source: "Self-Reliance"
+  },
+  {
+    id: 19,
+    text: "Go confidently in the direction of your dreams. Live the life you have imagined.",
+    author: "Henry David Thoreau",
+    source: "Walden"
+  },
+  {
+    id: 20,
+    text: "When you have a dream, you've got to grab it and never let go.",
+    author: "Carol Burnett",
+    source: "Interview"
+  },
+  {
+    id: 21,
+    text: "Nothing is impossible, the word itself says 'I'm possible'!",
+    author: "Audrey Hepburn",
+    source: "Interview"
+  },
+  {
+    id: 22,
+    text: "There is nothing impossible to him who will try.",
+    author: "Alexander the Great",
+    source: "Attributed"
+  },
+  {
+    id: 23,
+    text: "The bad news is time flies. The good news is you're the pilot.",
+    author: "Michael Altshuler",
+    source: "The Complete Idiot's Guide to Great Customer Service"
+  },
+  {
+    id: 24,
+    text: "Life has got all those twists and turns. You've got to hold on tight and off you go.",
+    author: "Nicole Kidman",
+    source: "Interview"
+  },
+  {
+    id: 25,
+    text: "Keep your face always toward the sunshine—and shadows will fall behind you.",
+    author: "Walt Whitman",
+    source: "Leaves of Grass"
+  },
+  {
+    id: 26,
+    text: "Be courageous. Challenge orthodoxy. Stand up for what you believe in.",
+    author: "Tim Cook",
+    source: "Commencement Speech"
+  },
+  {
+    id: 27,
+    text: "When you put a date on your dream, it becomes a goal.",
+    author: "Les Brown",
+    source: "Live Your Dreams"
+  },
+  {
+    id: 28,
+    text: "You are never too old to set another goal or to dream a new dream.",
+    author: "C.S. Lewis",
+    source: "Mere Christianity"
+  },
+  {
+    id: 29,
+    text: "At the end of the day, whether or not those people are comfortable with how you're living your life doesn't matter.",
+    author: "Oprah Winfrey",
+    source: "Interview"
+  },
+  {
+    id: 30,
+    text: "It is during our darkest moments that we must focus to see the light.",
+    author: "Aristotle",
+    source: "Attributed"
+  },
+  {
+    id: 31,
+    text: "The only way to do great work is to love what you do.",
+    author: "Steve Jobs",
+    source: "Stanford Commencement Speech"
+  },
+  {
+    id: 32,
+    text: "If you can dream it, you can do it.",
+    author: "Walt Disney",
+    source: "Attributed"
+  },
+  {
+    id: 33,
+    text: "The way I see it, if you want the rainbow, you gotta put up with the rain.",
+    author: "Dolly Parton",
+    source: "Interview"
+  },
+  {
+    id: 34,
+    text: "Don't let yesterday take up too much of today.",
+    author: "Will Rogers",
+    source: "Attributed"
+  },
+  {
+    id: 35,
+    text: "You learn more from failure than from success. Don't let it stop you. Failure builds character.",
+    author: "Unknown",
+    source: "Attributed"
+  },
+  {
+    id: 36,
+    text: "If you are working on something that you really care about, you don't have to be pushed.",
+    author: "Steve Jobs",
+    source: "Interview"
+  },
+  {
+    id: 37,
+    text: "Experience is a hard teacher because she gives the test first, the lesson afterwards.",
+    author: "Vernon Law",
+    source: "Attributed"
+  },
+  {
+    id: 38,
+    text: "To know how much there is to know is the beginning of learning to live.",
+    author: "Dorothy West",
+    source: "The Living is Easy"
+  },
+  {
+    id: 39,
+    text: "Goal setting is the secret to a compelling future.",
+    author: "Tony Robbins",
+    source: "Awaken the Giant Within"
+  },
+  {
+    id: 40,
+    text: "Concentrate all your thoughts upon the work at hand. The sun's rays do not burn until brought to a focus.",
+    author: "Alexander Graham Bell",
+    source: "Attributed"
+  },
+  {
+    id: 41,
+    text: "Either you run the day, or the day runs you.",
+    author: "Jim Rohn",
+    source: "The Art of Exceptional Living"
+  },
+  {
+    id: 42,
+    text: "I'm a greater believer in luck, and I find the harder I work the more I have of it.",
+    author: "Thomas Jefferson",
+    source: "Attributed"
+  },
+  {
+    id: 43,
+    text: "When we strive to become better than we are, everything around us becomes better too.",
+    author: "Paulo Coelho",
+    source: "The Alchemist"
+  },
+  {
+    id: 44,
+    text: "Opportunity is missed by most people because it is dressed in overalls and looks like work.",
+    author: "Thomas Edison",
+    source: "Attributed"
+  },
+  {
+    id: 45,
+    text: "Focus on being productive instead of busy.",
+    author: "Tim Ferriss",
+    source: "The 4-Hour Work Week"
+  },
+  {
+    id: 46,
+    text: "You don't have to be great to get started, but you have to get started to be great.",
+    author: "Les Brown",
+    source: "Live Your Dreams"
+  },
+  {
+    id: 47,
+    text: "The expert in anything was once a beginner.",
+    author: "Helen Hayes",
+    source: "Attributed"
+  },
+  {
+    id: 48,
+    text: "Set your goals high, and don't stop till you get there.",
+    author: "Bo Jackson",
+    source: "Attributed"
+  },
+  {
+    id: 49,
+    text: "Live in the sunshine, swim the sea, drink the wild air.",
+    author: "Ralph Waldo Emerson",
+    source: "Nature"
+  },
+  {
+    id: 50,
+    text: "Don't watch the clock; do what it does. Keep going.",
+    author: "Sam Levenson",
+    source: "Attributed"
+  }
+];
