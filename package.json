@@ -14,7 +14,7 @@
   "devDependencies": {
     "gh-pages": "^4.0.0"
   },
-  "homepage": "https://yourusername.github.io/philo",
+  "homepage": "https://jaku10.github.io/philo",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

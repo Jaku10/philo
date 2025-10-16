@@ -17,7 +17,7 @@ A beautiful, minimal daily philosophy quoting app designed for mental health and
 
 ## 🚀 Live Demo
 
-**[Try philo live on GitHub Pages →](https://yourusername.github.io/philo)**
+**[Try philo live on GitHub Pages →](https://jaku10.github.io/philo)**
 
 ## 🛠️ Tech Stack
 
@@ -31,7 +31,7 @@ A beautiful, minimal daily philosophy quoting app designed for mental health and
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/philo.git
+   git clone https://github.com/jaku10/philo.git
    cd philo
    ```
 
