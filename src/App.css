@@ -145,21 +145,10 @@ body {
   justify-content: center;
 }
 
-.previous-quote-btn:hover:not(.disabled) {
+.previous-quote-btn:hover {
   background-color: #e8e5e0;
   border-color: #d0d0d0;
   transform: translateY(-1px);
-}
-
-.previous-quote-btn.disabled {
-  opacity: 0.4;
-  cursor: not-allowed;
-}
-
-.previous-quote-btn.disabled:hover {
-  transform: none;
-  background-color: #f5f2ed;
-  border-color: #e0e0e0;
 }
 
 .new-thought-btn:hover {

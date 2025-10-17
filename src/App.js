@@ -58,7 +58,7 @@ function App() {
   const goToPreviousQuote = () => {
     if (previousQuote) {
       setCurrentQuote(previousQuote);
-      setPreviousQuote(null); // Clear previous quote after going back
+      setPreviousQuote(null); // Clear previous quote after going back - button will disappear
     }
   };
 
@@ -160,14 +160,15 @@ function App() {
         </div>
         
         <div className="quote-navigation">
-          <button 
-            className={`previous-quote-btn ${!previousQuote ? 'disabled' : ''}`}
-            onClick={goToPreviousQuote}
-            disabled={!previousQuote}
-            title="Go back to previous quote"
-          >
-            ←
-          </button>
+          {previousQuote && (
+            <button 
+              className="previous-quote-btn"
+              onClick={goToPreviousQuote}
+              title="Go back to previous quote"
+            >
+              ←
+            </button>
+          )}
           
           <button className="new-thought-btn" onClick={getRandomQuote}>
             New Thought
