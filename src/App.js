@@ -4,6 +4,7 @@ import { quotes } from './quotes';
 
 function App() {
   const [currentQuote, setCurrentQuote] = useState(quotes[0]);
+  const [previousQuote, setPreviousQuote] = useState(null);
   const [favorites, setFavorites] = useState([]);
   const [dailyCount, setDailyCount] = useState(0);
   const [showFavorites, setShowFavorites] = useState(false);
@@ -42,6 +43,9 @@ function App() {
   }, [currentQuote, favorites]);
 
   const getRandomQuote = () => {
+    // Store current quote as previous before changing
+    setPreviousQuote(currentQuote);
+    
     const randomIndex = Math.floor(Math.random() * quotes.length);
     setCurrentQuote(quotes[randomIndex]);
     
@@ -49,6 +53,13 @@ function App() {
     const newCount = dailyCount + 1;
     setDailyCount(newCount);
     localStorage.setItem('philo-daily-count', newCount.toString());
+  };
+
+  const goToPreviousQuote = () => {
+    if (previousQuote) {
+      setCurrentQuote(previousQuote);
+      setPreviousQuote(null); // Clear previous quote after going back
+    }
   };
 
   const toggleFavorite = () => {
@@ -148,9 +159,20 @@ function App() {
           </div>
         </div>
         
-        <button className="new-thought-btn" onClick={getRandomQuote}>
-          New Thought
-        </button>
+        <div className="quote-navigation">
+          <button 
+            className={`previous-quote-btn ${!previousQuote ? 'disabled' : ''}`}
+            onClick={goToPreviousQuote}
+            disabled={!previousQuote}
+            title="Go back to previous quote"
+          >
+            ←
+          </button>
+          
+          <button className="new-thought-btn" onClick={getRandomQuote}>
+            New Thought
+          </button>
+        </div>
         
         <div className="action-buttons">
           <button 
