@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/philo/static/css/main.70541749.css",
-    "main.js": "/philo/static/js/main.9ae8aa4d.js",
+    "main.css": "/philo/static/css/main.1e8b3ee8.css",
+    "main.js": "/philo/static/js/main.08566702.js",
     "index.html": "/philo/index.html",
-    "main.70541749.css.map": "/philo/static/css/main.70541749.css.map",
-    "main.9ae8aa4d.js.map": "/philo/static/js/main.9ae8aa4d.js.map"
+    "main.1e8b3ee8.css.map": "/philo/static/css/main.1e8b3ee8.css.map",
+    "main.08566702.js.map": "/philo/static/js/main.08566702.js.map"
   },
   "entrypoints": [
-    "static/css/main.70541749.css",
-    "static/js/main.9ae8aa4d.js"
+    "static/css/main.1e8b3ee8.css",
+    "static/js/main.08566702.js"
   ]
 }
